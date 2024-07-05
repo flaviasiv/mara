@@ -1,0 +1,143 @@
+footer{
+    position: relative;
+    width: 100%;
+    max-width: 9990px;
+    margin: auto;
+    height: auto;
+    background-color: #000000;
+    color: #fff;
+}
+.footergrid{
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footerimglogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    padding: 0; 
+}
+.footerimglogo img{
+    display: block;
+    margin: auto;
+    margin-top: -20px;
+    width: 248px;
+}
+.footerimglogo ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footerimglogo ul li img{
+    max-width: 50px;
+}
+.footermenu{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: auto;
+}
+.footernav{
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    white-space: nowrap;
+    margin-right: 30px;
+}
+.footernav ul, .address ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 175px;
+}
+.footernav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+.footernav ul li a:hover {
+    color: #FFDE2E;
+    transition: 0.5s;
+}
+.address{
+    width: 100%;
+    white-space: nowrap;
+}
+.address ul li {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 8px;
+}
+.rights{
+    position: relative;
+    height: 120px;
+    width: 100%;
+    max-width: 9990px;
+    margin: auto;
+    padding: 0 0 50px 0;
+    background-color: #000000;
+    align-items: center;
+    text-align: center;    
+}
+.rights p{
+    color: #fff;
+    border-top: 1px solid #fff;
+    font-size: 14.4px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 50px;
+}
+.footerimglogo2{display:none;}
+@media screen and (max-width: 870px) {
+    .footergrid{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footerimglogo img{
+        margin-top: 20px;
+    }
+    .footerimglogo ul{
+        margin-top: 0px;
+    }
+    .footermenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        margin-top: 36px;
+        padding-bottom: 40px;
+    }
+    .footernav{
+        margin: auto;
+    }
+    .address {
+        margin-top: 36px;
+    }
+    .address ul li{
+        display: block;
+        text-align: center;
+    }
+    .rights p{
+        font-size: 12px;
+    }
+}
