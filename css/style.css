@@ -756,7 +756,7 @@ form button:hover{
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 1099px;
+    max-width: 899px;
     margin: auto;
     justify-content: center;
 }
