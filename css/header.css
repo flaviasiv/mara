@@ -143,6 +143,9 @@ header {
     margin-right: 5px;
 }
 .logow{display: none;}
+.callm{
+  display: none;
+}
 @media only screen and (max-width: 1100px) {
     .logow{
     z-index: 9;
@@ -228,14 +231,14 @@ header {
     background-color:#000;
     flex-direction: column;
     align-items:center;
-    margin-top: 30px;
+    margin-top: 65px;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
     padding-top: 0px;
     border-bottom-right-radius: 32px;
     border-bottom-left-radius: 32px;
-    height:330px;
+    height:270px;
   }
   .menu-links ul{
       display: block;
@@ -256,6 +259,7 @@ header {
       align-items: center;
       margin: auto;
       margin-bottom: 10px;
+      margin-right: 8px;
   }
   .menusocial ul a {
       text-decoration:none;
@@ -298,4 +302,12 @@ header {
   text-align: right;
   align-items: end;
   }   
+  .callw{
+    display: none;
+  }
+  .callm{
+    position: absolute;
+    left: 45%;
+    transform: translate(-50px);
+  }
 }
