@@ -399,7 +399,7 @@ swiper-container {
 } 
 @media screen and (max-width: 700px) {
     .preferencecontainer{
-        height: 750px;
+        height: 790px;
         max-height: 1200px;
     }
     .preferencecard{
@@ -601,16 +601,29 @@ swiper-container {
 .buttonreview a svg{
     margin-right: 10px;
 }
+@media screen and (max-width:1750px) {
+    .reviewcontainer{
+        background-size: 120%;
+        padding: 100px 0 150px 0;
+    }
+}
+@media screen and (max-width:1430px) {
+    .reviewcontainer{
+        background-size: 140%;
+    }
+}
+@media screen and (max-width:1280px) {
+    .reviewcontainer{
+        background-size: 180%;
+    }
+}
 @media screen and (max-width:980px) {
+    .reviewcontainer{
+        background-size: 200%;
+    }
     .reviewp{
         max-width: 449px;
-        padding: 0 50px 60px 50px;
-    }
-    .reviewp h2{
-        font-size: 20px;
-    }
-    .reviewp h6{
-        font-size: 28px;
+        padding: 0 20px 60px 20px;
     }
     .reviewp img{
         width: 259px;
@@ -622,20 +635,20 @@ swiper-container {
     }
     .swiper3{
         gap: 12px;
-        width: 350px;
+        width: 255px;
     }
     .swiper3 img{
         max-width: 250px;
     }
 }
-@media screen and (max-width:680px) {
-    .reviewp{
-        max-width: 400px;
+@media screen and (max-width:780px) {
+    .reviewcontainer{
+        background-size: 320%;
     }
-    .reviewp img{
-        width: 249px;
-        top: 67px;
-        left: 115px;
+}
+@media screen and (max-width:500px) {
+    .reviewcontainer{
+        background-size: 400%;
     }
 }
 /* IG CONTAINER */
@@ -648,7 +661,7 @@ swiper-container {
     width: 100%;
     max-width: 9999px;
     margin: auto;
-    padding: 200px 0 100px 0px;
+    padding: 100px 0 100px 0px;
 }
 .ig-embed h2{
     display: flex;
@@ -669,14 +682,17 @@ swiper-container {
 @media screen and (max-width:980px) {
     .ig-embed iframe{
         width:500px; 
-        height:450px;
-    }    
+        height:499px;
+    } 
+    .ig-embed{
+        padding: 0px 0 150px 0px;
+    }   
 }
 @media screen and (max-width:580px) {
     .ig-embed iframe{
         width:100%;
-        max-width: 400px; 
-        height: 330px;
+        max-width: 380px; 
+        height: 400px;
     }    
 }
 .formgrid{
@@ -804,7 +820,18 @@ form button:hover{
 #form input:focus, #form textarea:focus{
     outline: 1px solid #fff;     /* oranges! yey */
 }
-@media screen and (max-width:980px) {
+@media screen and (max-width:1080px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 1100px;
+        margin: auto;
+    }
+    form{
+        margin: auto;
+        margin-top: 30px;
+    }
     .formp h2{
         font-size: 35px;
     }
@@ -845,7 +872,7 @@ form button:hover{
 .listareas{
     display: flex;
     flex-direction: column;
-    padding: 50px 0;
+    padding: 50px 0 0;
 }
 .listareas h1{
     color: #FFF;
@@ -884,7 +911,7 @@ line-height: 150%;
 }
 @media screen and (max-width:800px) {
     .mapscontainer{
-        padding: 48px 20px 86px;
+        padding: 48px 0px 0px;
     }
     .mapsfooter{
         flex-direction: column;
@@ -894,17 +921,8 @@ line-height: 150%;
         width: 100%;
         margin: auto;
     }
-    .mapsfooter .mapinfo ul{
-        text-align: center;
-    }
-    .mapinfo ul li h2{
-        font-size: 20px;
-    }
-    .mapinfo ul li a{
-        font-size: 14px;
-    }
-    .mapinfo ul li p{
-    font-size: 14px;
+    .listareas h1{
+        font-size: 24px;
     }
 }
 
@@ -915,6 +933,10 @@ line-height: 150%;
     border-top-left-radius:  50px;
     border-top-right-radius: 50px;
     margin-top: -100px;
+}
+.ig-embed{
+    margin-top: -150px;
+    background-color: #FFF;
 }
 @media screen and (max-width:990px) {
     .bordertop{
