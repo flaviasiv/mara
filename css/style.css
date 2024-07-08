@@ -968,7 +968,16 @@ line-height: 150%;
     }
 }
 
-
+.reveal{
+    position: relative;
+    transform: translateX(-50%);
+    opacity: 20%;
+    transition: 1s all ease;
+}
+.reveal.active{
+    transform: translateX(0%);
+    opacity: 1;
+}
 
 .popuptest{
     position: relative;
