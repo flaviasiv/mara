@@ -138,9 +138,11 @@ header {
 .callnow a{
     font-size: 14px;
 }
-.callnow img{
+.callnow svg{
+    display: flex;
     max-width: 20px;
     margin-right: 5px;
+
 }
 .logow{display: none;}
 .callm{
