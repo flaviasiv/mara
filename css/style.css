@@ -155,7 +155,7 @@ swiper-container {
     max-width: 9999px;
     margin: auto;
     background-color: #fff;
-    padding: 90px 0 200px;
+    padding: 90px 0 120px;
 }
 .servicesinfo{
     display: flex;
@@ -661,7 +661,7 @@ swiper-container.mySwiper1 {
 @media screen and (max-width:1750px) {
     .reviewcontainer{
         background-size: 120%;
-        padding: 100px 0 150px 0;
+        padding: 100px 0 200px 0;
     }
 }
 @media screen and (max-width:1430px) {
@@ -701,6 +701,7 @@ swiper-container.mySwiper1 {
 @media screen and (max-width:780px) {
     .reviewcontainer{
         background-size: 320%;
+        padding: 100px 0 100px 0;
     }
 }
 @media screen and (max-width:500px) {
@@ -1088,4 +1089,34 @@ line-height: 150%;
 }
 .btnservice:hover{
     color: #000;
+}
+.thankscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #95C6D6;
+    color: #000;
+    height: 100%;
+    text-align: center;
+    gap: 80px;
+}
+.thankscontainer svg{
+    width: 150px;
+}
+.thankscontainer p{
+    max-width: 1100px;
+    padding: 0 20px;
+    font-size: 50px;
+}
+.thankscontainer button{
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+}
+.thankscontainer .callnow a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    line-height:200%;
 }

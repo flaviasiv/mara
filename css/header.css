@@ -104,6 +104,18 @@ header {
     cursor: pointer;
     align-items: center;
 }
+.menusocial svg circle{
+  fill: #115C75;
+}
+.menusocial svg path{
+  fill: #fff;
+}
+.menusocial a:hover svg circle{
+  fill: #fff;
+}
+.menusocial a:hover svg path{
+  fill: #115C75;
+}
 .menu-linksbtn a:hover,
 .menu-linksbtn a.active {
     color: #95C6D6;
@@ -130,7 +142,7 @@ header {
     line-height: 120%;
     align-items: center;
     text-align: center;
-    padding: 10px 10px;
+    padding: 5px 10px;
     width: 170px;
     margin-left: 10px;
     text-decoration: none;
