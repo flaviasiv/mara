@@ -1090,33 +1090,3 @@ line-height: 150%;
 .btnservice:hover{
     color: #000;
 }
-.thankscontainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #95C6D6;
-    color: #000;
-    height: 100%;
-    text-align: center;
-    gap: 80px;
-}
-.thankscontainer svg{
-    width: 150px;
-}
-.thankscontainer p{
-    max-width: 1100px;
-    padding: 0 20px;
-    font-size: 50px;
-}
-.thankscontainer button{
-    border: none;
-    text-decoration: none;
-    background-color: transparent;
-}
-.thankscontainer .callnow a{
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    line-height:200%;
-}
