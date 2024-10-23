@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google Tag Manager -->
-    <!-- End Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TND8P9HG');</script>
+    <!-- End Google Tag Manager -->    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -15,6 +20,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Mara Cleaning - Discover the magic of a pristine space with Mara's Cleaning!</title>
     <link rel="icon" type="image/x-icon" href="./assets/logo-f.png">
     <meta name="author" content="Flavia Sigoli"/>
@@ -112,7 +118,8 @@
                 <h6>Transform with Mara's Cleaning</h6>
                 <p>Uncover a world of transformation with Mara's Cleaning team, discovering our services! Our passionate professionals are dedicated to creating a profound impact in your life. Count on us to bring unparalleled brilliance to your space and elevate your living experience to extraordinary heights. Discover our exceptional services today.</p>
             </div>
-            <swiper-container class="mySwiper1 reveal" pagination="true" pagination-clickable="true" space-between="0" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="5000">
+            <swiper-container class="mySwiper1" pagination="true" data-aos="fade-in"
+            data-aos-easing="ease-in-out" pagination-clickable="true" space-between="0" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="5000">
               <swiper-slide class="swiper1">
                 <div class="servicescard">
                   <img src="./assets/Frame1.png" alt="">
@@ -192,10 +199,12 @@
                     <p>We are a passionate team dedicated to making homes cleaner and more welcoming. With years of industry experience, we offer high-quality professional cleaning services tailored to meet each client's needs. We aim to exceed our customers expectations with efficient cleaning on every visit! Discover the magic of a pristine space with Mara's Cleaning!</p>
                 </div>
             </div>
-            <div class="aboutprinc aboutprincw reveal ">
+            <div class="aboutprinc aboutprincw" data-aos="fade-in"
+            data-aos-easing="ease-in-out">
               <img src="./assets/aboutimg.png" alt="">
             </div>
-            <div class="aboutprinc  reveal aboutprincm">
+            <div class="aboutprinc aboutprincm" data-aos="fade-in"
+            data-aos-easing="ease-in-out">
               <img src="./assets/aboutimgm.png" alt="">
             </div>
         </div>
@@ -207,19 +216,23 @@
           </div>
           <div class="preferenceprinc">
             <div class="preferencegrid">
-              <div class="preferencecard reveal" id="preferencecard1">
+              <div class="preferencecard" id="preferencecard1" data-aos="fade-in"
+            data-aos-easing="ease-in-out">
                 <img src="./assets/preference1.png" alt=""  draggable="false">
                 <h5>Superior Cleaning <br> Standards</h5>
               </div>
-              <div class="preferencecard reveal" id="preferencecard2">
+              <div class="preferencecard" id="preferencecard2" data-aos="fade-in"
+            data-aos-easing="ease-in-out">
                 <img src="./assets/preference2.png" alt=""  draggable="false">
                 <h5>Tailored <br>Solutions</h5>
               </div>
-              <div class="preferencecard reveal" id="preferencecard6">
+              <div class="preferencecard" id="preferencecard6" data-aos="fade-in"
+            data-aos-easing="ease-in-out">
                 <img src="./assets/preference3.png" alt=""  draggable="false">
                 <h5>Dedication <br>to Excellence</h5>
               </div>
-              <div class="preferencecard reveal" id="preferencecard6">
+              <div class="preferencecard" id="preferencecard6" data-aos="fade-in"
+            data-aos-easing="ease-in-out">
                 <img src="./assets/preference4.png" alt=""  draggable="false">
                 <h5>Supportive <br>Team</h5>
               </div>
@@ -232,7 +245,7 @@
                 <p>Experience cleaning excellence with our specialized team. Each service is delivered with dedication and precision to transform your environment into a pristine and inviting space. We ensure that every corner shines with freshness and exceptional cleanliness. Trust us to elevate the standard of hygiene and care in your space.</p>
             </div>
             <div class="gallerygrid">              
-              <swiper-container class="mySwiper2 reveal" pagination="true" pagination-clickable="true" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="5000">
+              <swiper-container class="mySwiper2" pagination="true" data-aos="fade-in" data-aos-easing="ease-in-out" pagination-clickable="true" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="5000">
                 <swiper-slide class="swiper2">
                   <div class="">
                     <img src="./assets/portfolio1.png" alt="image of concrete driveway" draggable="false">
@@ -414,6 +427,10 @@
       </div>
     </footer>
     <script src="./js/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./js/jquery.magnific-popup.js"></script>
     <script async
     src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
@@ -421,7 +438,6 @@
     <script src="./js/javascript.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.js"></script>
 </script>
 <!-- Marcação JSON-LD gerada pelo Assistente de marcação para dados estruturados do Google. -->
 <script type="application/ld+json">

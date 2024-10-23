@@ -30,7 +30,6 @@ button{
     justify-content: center;
     width: 190px;
     margin: auto;
-    margin-top: 50px;
     text-decoration: none;
     background-color: #115C75;
     color: #fff;
@@ -45,6 +44,7 @@ button{
     width:100%;
     max-width:9999px;
     padding: 0 0 50px 0;
+    margin-top: 80px;
 }
 .video{
     display: flex;
@@ -57,7 +57,6 @@ button{
     display: block;
     width: 100%;
     max-width: 750px;
-    margin-top: 80px;
     border-top-right-radius: 6000px;
     border-bottom-right-radius: 6000px;
 }
@@ -65,7 +64,8 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    right: 0
+    right: 0;
+    gap: 30px;
 }
 .videop p{
     color: #fff;
@@ -73,7 +73,6 @@ button{
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    padding-top: 40px;
     line-height: 120%
 }
 .videobtn{
@@ -990,18 +989,6 @@ line-height: 150%;
     font-size: 14px;
     }
 }
-
-.reveal{
-    position: relative;
-    transform: translateX(-50%);
-    opacity: 20%;
-    transition: 1s all ease;
-}
-.reveal.active{
-    transform: translateX(0%);
-    opacity: 1;
-}
-
 .popuptest{
     position: relative;
     width: 100%;
