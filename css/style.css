@@ -253,6 +253,10 @@ swiper-container.mySwiper1 {
       margin-left: 0px;
       padding-bottom: 20px;
     }
+    .mySwiper1{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
     .swiper1 img {
       width: 100% !important;
       max-height: 60%;
