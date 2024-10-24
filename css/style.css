@@ -41,14 +41,14 @@ button{
     width:100%;
     max-width:9999px;
     padding: 0 0 50px 0;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 .video{
     display: flex;
     width: 100%;
     max-width: 1330px;
     justify-content: space-between;
-    padding: 0 50px 0 0;
+    padding: 80px 50px 0 0;
 }
 .videoimg {
     display: block;
@@ -63,6 +63,7 @@ button{
     justify-content: center;
     right: 0;
     gap: 30px;
+    margin-bottom: 40px;
 }
 .videop p{
     color: #fff;
