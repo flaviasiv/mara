@@ -172,7 +172,6 @@ swiper-container {
     line-height: 150%; 
 }
 .servicesinfo h6{
-    font-size: 48px;
     font-weight: 700;
     line-height: 120%; 
 }
@@ -304,7 +303,7 @@ swiper-container.mySwiper1 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1000px;
     margin: auto;
 }
 .aboutinfos h2{
@@ -316,9 +315,8 @@ swiper-container.mySwiper1 {
     line-height: 150%; 
 }
 .aboutinfos span{
-    max-width: 663px;
+    max-width: 453px;
     color: #FFF;
-    font-size: 48px;
     font-weight: 700;
     line-height: 120%; 
 }
@@ -407,7 +405,7 @@ swiper-container.mySwiper1 {
 }
 .preferencetitle h6{
     color: #FFF;
-    max-width: 475px;
+    max-width: 355px;
     margin: auto;
 }
 .preferencetitle p{
@@ -507,7 +505,6 @@ swiper-container.mySwiper1 {
     background-color: #fff;
 }
 .galleryinfos h2{
-    font-size: 48px;
     color: #000;
 }
 .galleryinfos p{
@@ -810,10 +807,6 @@ swiper-container.mySwiper1 {
 .formp ul li{
     display: flex;
     align-items: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
     margin: auto;
     list-style: none;
 }
@@ -990,6 +983,9 @@ line-height: 150%;
     .mapinfo ul li p{
     font-size: 14px;
     }
+}
+.title{
+    font-size: 36px;
 }
 .popuptest{
     position: relative;
